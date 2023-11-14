@@ -26,6 +26,10 @@ public class dado {
     }
 
     void mostrar () {System.out.print( numero + " " );
+
+
+
     }
+
 
 }

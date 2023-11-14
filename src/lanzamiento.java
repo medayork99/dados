@@ -18,7 +18,8 @@ public class lanzamiento {
         this.valor = valor;
     }
     void mostrar (){
-        System.out.println(lanzamiento + "El lanzamiento fue de " + valor);
+        System.out.println(valor + "El lanzamiento fue de " + valor);
     }
+
 }
 

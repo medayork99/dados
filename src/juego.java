@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class juego {
     private dado[] dados = new dado[5];
     private jugador[] jugadores;
@@ -36,8 +37,11 @@ public class juego {
     void jugar (){
         System.out.println(" \n Empiecen a jugar");
         for (int i = 0 ; i < jugadores.length ; i++){
+            jugadores[i].lanzar(new dado(0 , true) , new dado(0 , false));
             jugadores[i].mostrar();
+
         }
 
     }
+
 }
